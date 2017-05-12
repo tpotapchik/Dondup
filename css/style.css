@@ -1601,11 +1601,11 @@ body {
     min-height: 100%; }
 
 .page_i {
-  padding-bottom: 310px; }
+  padding-bottom: 340px; }
 
 .footer {
-  height: 310px;
-  margin-top: -310px; }
+  height: 340px;
+  margin-top: -340px; }
 
 .row {
   *zoom: 1;
@@ -1838,18 +1838,29 @@ body {
 
 .logo-footer {
   width: 124px;
-  height: 20px; }
+  height: 20px;
+  margin-bottom: 30px;
+  display: block; }
 
 .footer {
   color: #999999;
-  background-color: #111; }
+  background-color: #111;
+  padding: 50px 0;
+  box-sizing: border-box; }
   .footer .title {
     color: #fff;
     text-transform: uppercase; }
+    .footer .title._space {
+      margin: 20px 0; }
+  .footer p {
+    margin-bottom: 20px; }
   .footer .right-part {
     padding-left: 50px;
-    border-left: 1px solid #fff;
-    width: 30%; }
+    border-left: 1px solid #919191;
+    width: 30%;
+    float: right; }
+  .footer .left-part {
+    overflow: hidden; }
 
 .footer-search-block .footer-search-field {
   width: 100%;
@@ -1863,6 +1874,35 @@ body {
   background: url("../images/sprite.png") no-repeat scroll -15px -72px transparent;
   width: 25px;
   height: 25px; }
+
+.footer-item-wrap {
+  float: left;
+  width: 23%;
+  margin-right: 2%; }
+  .footer-item-wrap .footer-item-title {
+    margin-bottom: 20px; }
+  .footer-item-wrap .footer-item-link {
+    margin-bottom: 8px;
+    display: block;
+    text-decoration: none; }
+    .footer-item-wrap .footer-item-link:hover {
+      text-decoration: underline; }
+    .footer-item-wrap .footer-item-link .ico {
+      float: left;
+      width: 12px;
+      height: 12px;
+      margin-right: 7px; }
+      .footer-item-wrap .footer-item-link .ico.facebook {
+        background: url("../images/sprite.png") no-repeat scroll 0 -51px transparent; }
+      .footer-item-wrap .footer-item-link .ico.instagram {
+        background: url("../images/sprite.png") no-repeat scroll 0 -73px transparent; }
+      .footer-item-wrap .footer-item-link .ico.youtube {
+        background: url("../images/sprite.png") no-repeat scroll 0 -94px transparent; }
+
+.privacy-block {
+  position: absolute;
+  bottom: 0;
+  left: 0; }
 
 .mobile-block {
   display: none; }
