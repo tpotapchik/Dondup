@@ -1,0 +1,20 @@
+.desktop-block {
+
+}
+.mobile-block {
+display: none;
+}
+@media screen and (max-width: 1024px) {
+    .centralize {
+        box-sizing: border-box;
+        padding: 0 20px;
+    }
+    .desktop-block {
+display: none;
+    }
+    .mobile-block {
+        display: block;
+    }
+
+
+}
