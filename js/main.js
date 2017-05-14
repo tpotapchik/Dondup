@@ -17,6 +17,22 @@ $(function () {
         width: "35px"
     });
 
+	$('#subslider1,#subslider2,#subslider3,#subslider4').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		dots: false,
+		fade: true
+	});
+
+	$('#mainSlider').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		dots: true,
+		fade: true
+	});
+
+
+
     $('.mobile-menu,.fade').click(function () {
         $('.fade').toggle();
         $('.navigation').toggle();

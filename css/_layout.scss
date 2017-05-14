@@ -216,8 +216,19 @@ body {
     background-color: transparent;
 
     &:hover {
-
             background: rgba(255,255,255,.1);
+    }
+}
+.btn-primary {
+    padding: 0 30px;
+    font-size: 17px;
+    line-height: 40px;
+    color:$clr_def;
+    border:1px solid $clr_def;
+    background-color: transparent;
+
+    &:hover {
+        background: rgba(0,0,0,.1);
     }
 }
 

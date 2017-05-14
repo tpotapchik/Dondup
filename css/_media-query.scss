@@ -18,3 +18,19 @@ display: none;
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 144dpi) {
+    .component-select .chosen-single div b {
+        background: url(../images/sprite.png) no-repeat scroll 0 0 transparent!important;
+    }
+}
