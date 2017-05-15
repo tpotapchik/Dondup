@@ -29,44 +29,6 @@ body {
     margin-top: -$height_footer;
 }
 
-.row {
-    @include clearfix;
-    margin-left: -$grid_gutter_width / 2;
-    margin-right: -$grid_gutter_width / 2;
-}
-
-.col-3,
-.col-4,
-.col-6,
-.col-8,
-.col-9 {
-    @include box-sizing;
-    float: left;
-    padding-left: $grid_gutter_width / 2;
-    padding-right: $grid_gutter_width / 2;
-    min-height: 1px;
-}
-
-.col-3 {
-    width: 25%;
-}
-
-.col-4 {
-    width: 33.33333333%;
-}
-
-.col-6 {
-    width: 50%;
-}
-
-.col-8 {
-    width: 66.66666667%;
-}
-
-.col-9 {
-    width: 75%;
-}
-
 
 .user-content {
     @include f;
@@ -79,61 +41,6 @@ body {
     }
 }
 
-//.component-checkbox {
-//    cursor: default;
-//    position: relative;
-//    padding-left: 48px;
-//    min-height: 41px;
-//    font-size: 14px;
-//    line-height: 42px;
-//    font-weight: 700;
-//    font-family: 'Oxygen',sans-serif;
-//    margin: 5px 0;
-//
-//    &.vip-add {
-//        margin: 5px 10px;
-//    }
-//
-//    input {
-//        left: 0;
-//        position: absolute;
-//        top: 0;
-//        opacity: 0;
-//
-//        + label:before {
-//            @include bg(0, -98px);
-//            content: "";
-//            height: 41px;
-//            left:0;
-//            position: absolute;
-//            top: 0;
-//            width: 43px;
-//        }
-//        &:checked + label:before {
-//            background-position: 0 -142px;
-//        }
-//        &:hover + label:before {
-//        }
-//        &:checked:hover + label:before {
-//        }
-//        &:active + label:before {
-//        }
-//        &:checked:active + label:before {
-//        }
-//        &:disabled + label:before {
-//        }
-//        &:checked:disabled + label:before {
-//        }
-//    }
-//    label {
-//        cursor: default;
-//        display: inline-block;
-//        vertical-align: top;
-//        line-height: 42px;
-//    }
-//
-//}
-//
 .component-select {
     background-color: #111;
     border: none;
@@ -179,26 +86,8 @@ body {
     .chosen-results {
         li {
             padding: 2px;
-
         }
-        //.highlighted {
-        //    //background: $clr_gray_form;
-        //    color: #000;
-        //}
-        //.result-selected {
-        //    background: $bg_green;
-        //}
     }
-    //&.chosen-with-drop {
-    //    .chosen-single {
-    //        background-color: #55337e;
-    //        color: #8e7ca6;
-    //
-    //        div {
-    //            background-position: 0 0;
-    //        }
-    //    }
-    //}
 }
 
 /*BUTTONS*/
