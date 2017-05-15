@@ -9,8 +9,8 @@ body,
 }
 
 body {
-    background-color:#fff;
-    font: 300 62.5%/1.19  Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    font: 300 62.5%/1.19 Arial, Helvetica, sans-serif;
     color: $clr_def;
     min-width: $page_min;
 
@@ -29,25 +29,13 @@ body {
     margin-top: -$height_footer;
 }
 
-
-.user-content {
-    @include f;
-
-    > *:first-child {
-        margin-top: 0;
-    }
-    p {
-        margin: 1em 0;
-    }
-}
-
 .component-select {
     background-color: #111;
     border: none;
     padding: 0;
     width: 100%;
     @include box-sizing();
-    color:#eee;
+    color: #eee;
     font-size: 12px;
 
     .chosen-single {
@@ -57,7 +45,7 @@ body {
         color: #eee;
 
         span {
-            margin-right:0;
+            margin-right: 0;
             padding: 0 2px;
 
         }
@@ -75,14 +63,13 @@ body {
                 margin: -2px 0 0 0;
             }
         }
-        &:hover {
-
-        }
     }
+
     .chosen-drop {
         background-color: #111;
-        color:#eee;
+        color: #eee;
     }
+
     .chosen-results {
         li {
             padding: 2px;
@@ -100,24 +87,25 @@ body {
     padding: 0 30px;
     font-size: 17px;
     line-height: 40px;
-    color:#fff;
-    border:1px solid #fff;
+    color: #fff;
+    border: 1px solid #fff;
     background-color: transparent;
 
     &:hover {
-            background: rgba(255,255,255,.1);
+        background: rgba(255, 255, 255, .1);
     }
 }
+
 .btn-primary {
     padding: 0 30px;
     font-size: 17px;
     line-height: 40px;
-    color:$clr_def;
-    border:1px solid $clr_def;
+    color: $clr_def;
+    border: 1px solid $clr_def;
     background-color: transparent;
 
     &:hover {
-        background: rgba(0,0,0,.1);
+        background: rgba(0, 0, 0, .1);
     }
 }
 
